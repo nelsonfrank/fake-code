@@ -18,10 +18,10 @@
              </div>
              <div class="link">
                  <ul class="tab">
-                     <li> <button class="tablink"  onclick="openPage('home')" id="defaultOpen">Home</button></li>
+                     <li> <button class="tablink"  onclick="openPage('home')" >Home</button></li>
                      <li> <button class="tablink" onclick="openPage('clients')" >Clients</button> </li>
                      <li> <button class="tablink" onclick="openPage('testimonial')">Testimonials</button> </li>
-                     <li><button class="tablink" onclick="openPage('Contact')">Contact Us</button></li>
+                     <li><button class="tablink" onclick="openPage('contact')">Contact Us</button></li>
                  </ul>
              </div>
          </nav>
@@ -30,22 +30,69 @@
      <body>
          <div class="container">
              <div id = "home" class="tabcontent">
-                 <h1>Introduction</h1>
-                 <p>FakeCodes is a digital agency specialized in 
+                 <div class="background">
+                       <h1 class="title">Professional Software Development Company</h1>
+                 <p class="facts">Digital agency specialized in <br>
                      designing and developing websites,
-                      mobile solutions and digital marketing.</p>
+                      mobile <br>solutions and digital marketing.</p>
+                 </div>
+               
              </div>
 
-             <div id = "clients" class="tabcontent"> 
-                 <h1>Our Clients</h1>
-                    <img src="Screenshot from 2019-05-04 12-57-51.png" alt="">
-             </div>
-             <div class="testimonial">
-                 
-             </div>
-             <div class="contact">
+              <div id = "clients" class="tabcontent"> 
+                 <h1 style="text-align: center;">Our Clients</h1>
+                 <div class="client">
+                     <div class="item">
+                        <img src="fb.png" alt="fb" height="100px" width="100px" style="border-radius: 5px;">
+                    </div>
+                    <div class="item">
+                        <img src="git.png" alt="firebase" height="100px" width="100px" style="border-radius: 5px;">
+                    </div>
+                    <div class="item">
+                        <img src="firebase2.png" alt="git" height="100px" width="100px" style="border-radius: 5px;">
+                    </div>
+                    <div class="item">
+                        <img src="vscode.png" alt="tbc" height="100px" width="100px" style="border-radius: 5px;">
+                    </div>
 
-             </div>
+                 </div>
+                   
+             </div> 
+            <div id="testimonial" class="tabcontent">
+               <div class="test">
+                    <h1 style="margin: 10px 0px 10px 0px;">Testimonials</h1>
+                <p style="font-size: 16px; font-family: ubuntu;">FakeCodes Sortware Development </p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/QVbbhpr4nAE" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+               </div>
+               
+            </div>
+            <div id="contact" class="tabcontent">
+                <div class="cont">
+                    <h1 style="margin: 10px 0px 10px 0px; text-align: center;">Contact Us</h1>
+                    <h4 style="font-size: 16px; font-family: ubuntu; color: rgb(175, 169, 169);text-align: center;">
+                        Cecilia Chapman <br>
+                        711-2880 Nulla St. <br>
+                        Mankato Mississippi 96522 <br>
+                        (257) 563-7401 <br>
+                    </h4>
+                    <div class="client">
+                        <div class="item">
+                           <img src="youtube.jpeg" alt="fb" height="100px" width="100px" style="border-radius: 40px;">
+                       </div>
+                       <div class="item">
+                           <img src="twitter.png" alt="firebase" height="100px" width="100px" style="border-radius: 10px;">
+                       </div>
+                       <div class="item">
+                           <img src="linkedin.png" alt="git" height="100px" width="100px" style="border-radius: 10px;">
+                       </div>
+                       <div class="item">
+                           <img src="git.png" alt="tbc" height="100px" width="100px" style="border-radius: 10px;">
+                       </div>
+   
+                </div>
+            </div>
          </div>
      </body>
 </body>

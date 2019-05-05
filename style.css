@@ -29,7 +29,11 @@ margin: 0px 5px 0px 5px;
 list-style-type: none;
 display: inline;
 }
-
+#home{
+    background:url(blurred-background-coffee-cup-contemporary-908284\ \(1\).jpg);
+    background-size:cover;
+    height: 500px;
+}
 
 .container{
     margin: 5px;
@@ -44,4 +48,53 @@ button{
     cursor: pointer;
     border-color: rgb(148, 148, 196);
   color: rgba(248, 242, 242, 0.603);
+}
+.title{
+    font-size: 36px;
+    padding-bottom: 10px;
+}
+.facts{
+font-family: 'Times New Roman', Times, serif;
+font-size: 18px;
+padding: 10px;
+}
+.background{
+    background-color: rgba(0, 0, 0, 0.404);
+    height: 500px;
+}
+.testimonial{
+    background-color: rgba(0, 0, 0, 0.404);
+    height: 500px;
+    
+}
+
+.test{
+    margin-left: 400px;
+}
+#clients{
+     background-color: rgba(0, 0, 0, 0.404);
+    margin: 10px;
+    height: 500px;
+}
+.client{
+   display: flex;
+   flex-direction: row;
+   margin-left: 300px;
+}
+
+.item{
+    margin: 15px;
+}
+#contact{
+    background: url(design-development-electronics-326424.jpg);
+}
+.cont{
+    background-color: rgba(0, 0, 0, 0.404);
+    height: 500px;
+    margin: 5px;
+}
+#testimonial{
+    background-color: rgba(0, 0, 0, 0.404);
+    margin: 10px;
+    height: 500px
 }
